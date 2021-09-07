@@ -148,6 +148,25 @@ console.log( accumulator() );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/mmean`][@stdlib/stats/incr/mmean]: compute a moving arithmetic mean incrementally.
+-   [`@stdlib/stats/incr/msummary`][@stdlib/stats/incr/msummary]: compute a moving statistical summary incrementally.
+-   [`@stdlib/stats/incr/mvariance`][@stdlib/stats/incr/mvariance]: compute a moving unbiased sample variance incrementally.
+-   [`@stdlib/stats/incr/stdev`][@stdlib/stats/incr/stdev]: compute a corrected sample standard deviation incrementally.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -204,6 +223,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-incr-mstdev/main/LICENSE
 
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean
+
+[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary
+
+[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance
+
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
+
+<!-- </related-links> -->
 
 </section>
 
