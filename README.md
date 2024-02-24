@@ -63,7 +63,7 @@ s = \sqrt{\frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2}
 ## Usage
 
 ```javascript
-import incrmstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mstdev@esm/index.mjs';
+import incrmstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mstdev@v0.2.1-esm/index.mjs';
 ```
 
 #### incrmstdev( window\[, mean] )
@@ -139,7 +139,7 @@ s = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mstdev@esm/index.mjs';
+import incrmstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mstdev@v0.2.1-esm/index.mjs';
 
 var accumulator;
 var v;
