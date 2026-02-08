@@ -63,6 +63,11 @@ s = \sqrt{\frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2}
 ## Usage
 
 ```javascript
+import incrmstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mstdev@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mstdev/tags). For example,
+
+```javascript
 import incrmstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mstdev@v0.2.3-esm/index.mjs';
 ```
 
@@ -139,7 +144,7 @@ s = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mstdev@v0.2.3-esm/index.mjs';
+import incrmstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mstdev@esm/index.mjs';
 
 var accumulator;
 var v;
